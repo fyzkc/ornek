@@ -1,0 +1,6 @@
+runtime: python
+vm: true
+entrypoint: gunicorn -b $PORT soru5_ornek:app
+
+runtime_config:
+  pyhton_version: 3
