@@ -1,4 +1,5 @@
 runtime: python
+env: 2
 vm: true
 entrypoint: gunicorn -b $PORT soru5_ornek:app
 
