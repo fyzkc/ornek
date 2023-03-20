@@ -1,6 +1,6 @@
-runtime: python
-env : flex
-vm: true
+runtime: custom
+env: flex
+vm: True
 entrypoint: gunicorn -b $PORT soru5_ornek:app
 
 runtime_config:
